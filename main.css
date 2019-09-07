@@ -1,19 +1,112 @@
-::selection { background-color: #e6944a; }
-::-moz-selection { background-color: #e6944a; }
-nav.navigation { align-items: center; background-color: #ffffff; display: flex; flex-wrap: wrap; justify-content: space-between; padding-top: 0.5rem; padding-right: 1rem; padding-bottom: 0.5rem; padding-left: 1rem; position: fixed; top: 0; left: 0; right: 0; z-index: 500; }
-a.logo { display: inline-block; padding-top: .3125rem; padding-bottom: .3125rem; margin-right: 1rem; font-size: 1.25rem; line-height: inherit; white-space: nowrap; }
-img.logo { display: inline-block; vertical-align: top; }
-header.slogan { background: url("images/stock.jpg") no-repeat center center; background-size: cover; padding-bottom: 100px; padding-top: 156px; position: relative; }
-header.slogan .overlay { background-color: #212529; height: 100%; left: 0; opacity: 0.5; position: absolute; top: 0; width: 100%; }
-h1.slogan { color: #ffffff; font-family: 'Catamaran', sans-serif; font-size: 3.4rem; font-weight: 800; line-height: 5rem; text-align: left; }
-div.heading { padding-top: 3rem; padding-bottom: 3rem; }
-h1.heading { font-family: "Catamaran", sans-serif; font-size: 3.4rem; font-weight: 800; margin-top: 0rem; margin-bottom: 0rem; text-align: center; }
-div.content { margin-left:auto; margin-right:auto; padding-bottom: 3rem; width:80rem; }
-h2.subheading { font-family: "Catamaran", sans-serif; font-weight: 700; margin-top: 0rem; margin-bottom: 0rem; }
-p.paragraph { font-size: 1.2rem; margin-bottom: 1rem; }
-p.paragraph-foot { font-size: 1.2rem; margin-bottom: 0rem; }
-div.box { box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.2), 0 5px 12px 0 rgba(0, 0, 0, 0.19); position: relative; margin-left: auto; margin-right: auto; text-align: center; padding-top: 0.1rem; padding-bottom: 0.1rem}
-div.pre-footer { padding-bottom: 3rem; text-align: center; }
-div.footer { background-color: #f1f1f1; color: #676767; padding-top: 2rem; padding-bottom: 2rem; margin-left:auto; margin-right:auto; text-align: left; }
-div.footer-content { margin-left:auto; margin-right:auto; width: 80rem; }
-p.footer { margin-top: 0rem; margin-bottom: 0rem; }
+::selection { 
+    background-color: #e6944a
+}
+::-moz-selection {
+    background-color: #e6944a
+}
+a.logo {
+    display: inline-block;
+    font-size: 1.25rem;
+    line-height: inherit;
+    margin-right: 1rem;
+    padding: 0.3rem 0rem 0.3rem 0rem;
+    white-space: nowrap
+}
+div.alt {
+    background-color: #f1f1f1;
+    color: #676767
+}
+div.content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3rem
+}
+div.footer-content {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 75%
+}
+div.heading {
+    padding-top: 3rem;
+    padding-bottom: 3rem
+}
+div.notice {
+    padding-bottom: 3rem;
+    text-align: center
+}
+div.sitemap {
+    border-top: 1px solid #e6e6e6;
+}
+header.slogan {
+    background: url("images/stock.jpg") no-repeat center center;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 156px;
+    position: relative
+}
+h1.heading {
+    font-family: "Catamaran", sans-serif;
+    font-size: 3.4rem;
+    font-weight: 800;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center
+}
+h1.slogan {
+    color: #ffffff;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 3.4rem;
+    font-weight: 800;
+    line-height: 5rem;
+    margin-left: 20%;
+    text-align: left
+}
+h2.subheading {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 700;
+}
+img.icon {
+    height: 25px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)
+}
+img.logo {
+    display: inline-block;
+    vertical-align: top
+}
+nav.navigation {
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    left: 0;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 500
+}
+p.paragraph {
+    font-size: 1.2rem;
+    margin-bottom: 1rem
+}
+p.paragraph-foot {
+    font-size: 1.2rem;
+    margin-bottom: 0rem
+}
+.flex {
+    display: flex
+}
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left
+}
+.marginless {
+    margin-bottom: 0rem;
+    margin-top: 0rem
+}
